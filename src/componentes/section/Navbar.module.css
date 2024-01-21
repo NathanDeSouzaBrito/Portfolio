@@ -17,3 +17,32 @@
 .navbar a {
   color: aliceblue !important;
 }
+
+.icons {
+}
+
+.insta {
+  margin-right: 15px;
+}
+
+.insta:hover {
+  background: linear-gradient(
+    to right,
+    rgb(64, 93, 230),
+    rgb(91, 81, 216),
+    rgb(131, 58, 180),
+    rgb(193, 53, 132),
+    rgb(225, 48, 108),
+    rgb(253, 29, 29),
+    rgb(245, 96, 64),
+    rgb(247, 119, 55),
+    rgb(252, 175, 69),
+    rgb(255, 220, 128)
+  );
+
+  border-radius: 10px;
+}
+
+.linkedin:hover {
+  background-color: #0077b5;
+}

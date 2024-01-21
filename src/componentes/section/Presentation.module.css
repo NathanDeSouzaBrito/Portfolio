@@ -1,3 +1,23 @@
 .presentation {
-  color: brown;
+  text-align: left;
+  margin-left: 15%;
+}
+
+.presentation h4 {
+  font-size: 25px;
+}
+
+.presentation h1 {
+  font-size: 45px;
+}
+
+.presentation p {
+  font-size: 17px;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Bu {
+  display: flex;
+  flex-direction: row;
 }

@@ -14,14 +14,14 @@ const Navbar = () => {
           <Nav.Link href="#Skills">Skills</Nav.Link>
         </li>
         <li>
-          <Nav.Link href="#Projects">Projetos</Nav.Link>
+          <Nav.Link href="#Projects">Projects</Nav.Link>
         </li>
       </ul>
 
       {/* ICONS */}
       <ul>
         {/* INSTAGRAM PROFILE */}
-        <li>
+        <li className={style.insta}>
           <a href="https://www.instagram.com/mano.ragnar/" target="_blank">
             <FaInstagram size={40} />
           </a>
@@ -35,7 +35,7 @@ const Navbar = () => {
 
           {/* LINKEDIN PROFILE */}
         </li>
-        <li>
+        <li className={style.linkedin}>
           <a
             href="https://www.linkedin.com/in/nathan-de-souza-684126287/"
             target="_blank"
