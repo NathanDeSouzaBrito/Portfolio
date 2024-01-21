@@ -41,8 +41,10 @@
   );
 
   border-radius: 10px;
+  transition-duration: 0.7s;
 }
 
 .linkedin:hover {
   background-color: #0077b5;
+  transition-duration: 0.7s;
 }
